@@ -1042,5 +1042,3 @@ var teamData = [
 ];
 
 localStorage.setItem("team-data", JSON.stringify(teamData));
-
-teamData = [];
