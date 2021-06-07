@@ -22,10 +22,6 @@ $(document).ready(function () {
     $(".team-row").css("display", "block");
   })
 
-  $("#search-input").on("focusout", function() {
-    $(".team-row").css("display", "none");
-  })
-
 
 
   function renderTeamInfo(teamsInfo) {
