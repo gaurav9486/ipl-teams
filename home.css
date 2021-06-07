@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+header{
+    margin-top: 0;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    background-color: #959845;
+    box-shadow: 0 0 4px rgb(160, 160, 160);
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+#ipl-logo{
+    margin-left: 3%;
+    width: 70px;
+}
+
+#main-logo img{
+    width: 80px;
+}
+
+nav{
+    margin-left: 5%;
+    display: flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav a:hover{
+    border-bottom: 2px solid grey;
+}
+
+#create-buttons{
+    margin-left: 8%;
+}
+
+#create-buttons a{
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding: 5px 8px;
+    margin-left: 25px;
+    border: none;
+    border-radius: 6px;
+}
+
+#search-bar{
+    margin-left: 8%;
+    font-size: 12px;
+    color: black;
+    padding: 5px;
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 6px;
+    width: 250px;
+}
+
+#search-bar i{
+    margin-left: 2px;
+}
+
+#search-bar input{
+    margin-left: 5px;
+    border: none;
+    outline: unset;
+    background-color: #959845;
+}
+
+#search-options{
+    width: 300px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.team-row{
+    color: black;
+    text-decoration: none;
+    margin: 0;
+    display: inline-block;
+    border-radius: 2px;
+    list-style: none;
+    padding: 5px 10px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.team-row:hover{
+    background-color: rgb(184, 182, 182);
+    cursor: pointer;
+}
+
+#landing-photo{
+    margin-top: 0px;
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=867&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#landing-photo h1{
+    width: 70%;
+    padding: 300px 30px;
+    margin-left: 15%;
+    color: white;
+    font-size: 72px;
+    text-align: center;
+}
+
+#teams-grid{
+    margin: 0;
+    background-color: yellowgreen;
+    padding: 10px;
+}
+
+#teams-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card-anchor{
+    text-decoration: none;
+}
+
+.team-card{    
+    background-color: rgb(189, 247, 150);
+    width: 20vw;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-card:hover{
+    box-shadow: 0 0 20px grey;
+}
+
+.team-image{
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+}
+
+.team-title{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(25, 44, 6);
+}
+
+footer h3{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+footer h4{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight: 500;
+}

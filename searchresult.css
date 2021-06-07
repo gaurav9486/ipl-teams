@@ -1,0 +1,36 @@
+#the-team{
+    background-color: rgb(202, 243, 140);
+}
+
+#team-data{
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.team-logo{
+    width: 200px;
+    height: 200px;
+}
+
+.team-details{
+    margin-left: 10%;
+}
+
+.div-title{
+    font-size: 60px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.player-name{
+    margin: 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: rgb(68, 67, 67);
+}
+
